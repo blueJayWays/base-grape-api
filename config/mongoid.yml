@@ -1,0 +1,23 @@
+development:
+  clients:
+    default:
+      database: heroku_32wp5h6s
+      hosts:
+        - ds161901.mlab.com:61901
+      options:
+        user: ricardo
+        password: uafs26ptkajc953bnru
+  options:
+    raise_not_found_error: false
+
+production:
+  clients:
+    default:
+      database: heroku_32wp5h6s
+      hosts:
+        - ds161901.mlab.com:61901
+      options:
+        user: ricardo
+        password: uafs26ptkajc953bnru
+  options:
+    raise_not_found_error: false
